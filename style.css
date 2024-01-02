@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#screen {
+    display: flex;
+    justify-content: center;
+    border: blue ;
+    border-style: solid;
+   
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    border-style: solid;
+    border-color: red;
+}
