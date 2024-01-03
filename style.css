@@ -10,6 +10,8 @@ body {
     
 }
 
+
+/* Drawing screen */
 #screen {
     display: flex;
     justify-content: center;
@@ -22,6 +24,7 @@ body {
    
 }
 
+/* All the squares inside screen */
 #screen div {
     display: flex;
     flex-direction: column;
@@ -35,7 +38,11 @@ body {
     align-items: center;
 }
 
-.reset {
+
+/* Buttons */
+.reset,
+.colorful,
+.black {
     font-size: large;
     font-weight: 700;
     width: 150px;
@@ -52,6 +59,8 @@ body {
     gap: 10px;
 }
 
+
+/* Header text */
 h1 {
     font-size: 50px;
     margin-top: 5px;
